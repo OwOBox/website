@@ -1,0 +1,7 @@
+{
+    "delay": 3,
+    "config_path": "config.json",
+    "port": 5000,
+    "secret_key": "5c2ec0c8cd3c5b5e121567469eec2d6c5e63e101e4bcfb4bdefad29613054842",
+    "auth_token": "1udJEgosoKONrjpPfmSAPsSSZvq_7taJEj9pJwqokhxjaRv8j"
+}
