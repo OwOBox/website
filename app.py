@@ -183,7 +183,7 @@ def main():
         SETTINGS.update({"secret_key":os.urandom(32).hex()})
         save_settings()
     app.secret_key = SETTINGS.get("secret_key",os.urandom(32).hex())
-    app.run(host="127.0.0.1",port=SETTINGS.get("port",5000),debug=True,loop=loop)
+    app.run(host="*",port=SETTINGS.get("port",80),debug=True,loop=loop)
     
 if __name__ == '__main__':
     main()
